@@ -1,0 +1,8 @@
+/target/
+**/*.rs.bk
+Cargo.lock
+
+.envrc
+node_modules/
+**/target/
+**/.idea/

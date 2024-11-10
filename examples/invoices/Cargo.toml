@@ -1,0 +1,8 @@
+[package]
+name = "invoices"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.41.1", features = ["rt", "rt-multi-thread", "macros"] }
+lexoffice_api = { path = "../../lexoffice_api" }
